@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "911Porcheasd";
+    src: url(png/911porschav3expand.ttf);
+
+}
+@font-face {
+    font-family: "RDR";
+    src: url(png/chinese\ rocks\ rg.otf);
+}
+@font-face {
+    font-family: "C";
+    src: url(png/Brasileirão.ttf);
+}
+body {
+    background-color: rgb(137, 199, 228);
+    height: 70vh;
+    width: 70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    background-image:url(https://www.bing.com/images/search?view=detailV2&ccid=91JKU%2bbY&id=5C90E917A605B2813E49B04B8EC8CD794528C808&thid=OIP.91JKU-bYQxyrVLFHg9LYOwHaEK&mediaurl=https%3a%2f%2fwww.hdwallpapers.in%2fdownload%2frayquaza_pokemon_5k-HD.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.f7524a53e6d8431cab54b14783d2d83b%3frik%3dCMgoRXnNyI5LsA%26pid%3dImgRaw%26r%3d0&exph=2880&expw=5120&q=rayquaza&simid=608037632155922010&FORM=IRPRST&ck=10F066B0E6D25B0DC8B6F062656D6A6E&selectedIndex=23&itb=0);
+}
+h1 {
+    color: #00b418;
+    background: fixed;
+    width: 40vh;
+    text-align: center;
+    border-radius: 15px;
+    font-family: "RDR";
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-family: "911Porcheasd";
+    font-size: 25px;
+    color: hsl(123, 100%, 33%);
+    height: 1vh;
+}
+canvas {
+    display: flex;
+    text-align: center;
+    background: fixed;
+    
+}
+button{
+    font-family: "911Porcheasd";
+    width: 30vh;
+    font-size: 20px;
+    height: 3vh;
+    color: #00b100c0;
+    background-color: rgb(48, 114, 4);
+}
