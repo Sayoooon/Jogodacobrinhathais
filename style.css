@@ -1,16 +1,4 @@
-@font-face {
-    font-family: "911Porcheasd";
-    src: url(png/911porschav3expand.ttf);
 
-}
-@font-face {
-    font-family: "RDR";
-    src: url(png/chinese\ rocks\ rg.otf);
-}
-@font-face {
-    font-family: "C";
-    src: url(png/Brasileirão.ttf);
-}
 body {
     background-color: rgb(137, 199, 228);
     height: 70vh;
@@ -28,6 +16,7 @@ h1 {
     width: 40vh;
     text-align: center;
     border-radius: 15px;
+    box-shadow: 0 0 15px #00931b;
     font-family: "RDR";
     font-size: 80px;
     margin-bottom: 10px;
@@ -42,7 +31,7 @@ canvas {
     display: flex;
     text-align: center;
     background: fixed;
-    
+    box-shadow: 0 0 15px #00931b;
 }
 button{
     font-family: "911Porcheasd";
